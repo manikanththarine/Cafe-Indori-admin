@@ -180,7 +180,7 @@ console.log(data)
                                     <td className="py-2 pr-3 text-ci-gold text-xs">{order.area}</td>
                                     <td className="py-2 pr-3 text-ci-white-muted text-xs max-w-[150px] truncate">{order.address}</td>
                                     <td className="py-2 pr-3">
-                                      <span className={`text-xs font-medium ${order.mealPreference === 'veg' ?  'text-ci-error' : 'text-ci-gold'}`}>
+                                      <span className={`text-xs font-medium ${order.mealPreference === 'veg' ?  'text-ci-gold' : 'text-ci-gold'}`}>
                                         {order.mealPreference}
                                       </span>
                                     </td>
